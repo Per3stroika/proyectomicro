@@ -3,25 +3,25 @@ Optional file vector_offset_init.o not found
 Archive member included to satisfy reference by file (symbol)
 
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
-                              /tmp/ccy6BjSJ.o (_on_reset)
+                              /tmp/ccpaJOU7.o (_on_reset)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
-                              /tmp/ccy6BjSJ.o (_on_bootstrap)
+                              /tmp/ccpaJOU7.o (_on_bootstrap)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-nmi-handler.o)
-                              /tmp/ccy6BjSJ.o (_nmi_handler)
+                              /tmp/ccpaJOU7.o (_nmi_handler)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_data_init_core.o)
-                              /tmp/ccy6BjSJ.o (__pic32_data_init)
+                              /tmp/ccpaJOU7.o (__pic32_data_init)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_init_cache.o)
-                              /tmp/ccy6BjSJ.o (__pic32_init_cache)
+                              /tmp/ccpaJOU7.o (__pic32_init_cache)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_init_tlb_ebi_sqi.o)
-                              /tmp/ccy6BjSJ.o (__pic32_tlb_init_ebi_sqi)
+                              /tmp/ccpaJOU7.o (__pic32_tlb_init_ebi_sqi)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(general-exception.o)
-                              /tmp/ccy6BjSJ.o (_general_exception_context)
+                              /tmp/ccpaJOU7.o (_general_exception_context)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(cache-err-exception.o)
-                              /tmp/ccy6BjSJ.o (_cache_err_exception_context)
+                              /tmp/ccpaJOU7.o (_cache_err_exception_context)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(simple-tlb-refill-exception.o)
-                              /tmp/ccy6BjSJ.o (_simple_tlb_refill_exception_context)
+                              /tmp/ccpaJOU7.o (_simple_tlb_refill_exception_context)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
-                              /tmp/cczICM3U.o (_DefaultInterrupt)
+                              /tmp/ccj6iGVy.o (_DefaultInterrupt)
 
 Optional file vector_offset_init.o not found
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_data_init_clear.o)
@@ -38,46 +38,38 @@ section                    address  length [bytes]      (dec)  Description
 .text.general_exception 0x9d000010           0xdc         220   
 .rodata                 0x9d0000ec           0x14          20  Read-only const 
 .cache_err_excpt        0x9d000100           0x10          16   
-.text.EVIC_Initialize   0x9d000110           0x70         112   
+.text.I2C1_BUS_Interrup 0x9d000110           0x6c         108   
 .app_excpt              0x9d000180           0x10          16  General-Exception 
-.text.I2C1_Initialize   0x9d000190           0x6c         108   
+.text.main_entry        0x9d000190           0x54          84   
+.text._general_exceptio 0x9d0001e4           0x1c          28   
 .vectors                0x9d000200           0x70         112   
 .text.I2C1_MASTER_Inter 0x9d000270          0x558        1368   
-.dinit                  0x9d0007c8          0x3f0        1008   
-.text.main              0x9d000bb8          0x3dc         988   
-.text.TIMER_1_Handler   0x9d000f94          0x1d0         464   
-.text.I2C1_BUS_Handler  0x9d001164          0x1d0         464   
-.text.I2C1_MASTER_Handl 0x9d001334          0x1d0         464   
-.text.CHANGE_NOTICE_J_H 0x9d001504          0x1d0         464   
-.text.DMA0_Handler      0x9d0016d4          0x1d0         464   
-.text.DMA0_InterruptHan 0x9d0018a4          0x148         328   
-.text._cache_err_except 0x9d0019ec           0xd8         216   
-.text.simple_tlb_refill 0x9d001ac4           0xd8         216   
-.tlb.__pic32_tlb_init_e 0x9d001b9c           0xbc         188   
-.text.GPIO_Initialize   0x9d001c58           0xb8         184   
-.text.CLK_Initialize    0x9d001d10           0xb0         176   
-.text.SYS_Initialize    0x9d001dc0           0x88         136   
-.text.CHANGE_NOTICE_J_I 0x9d001e48           0x84         132   
-.text.DMAC_Initialize   0x9d001ecc           0x7c         124   
-.text                   0x9d001f48           0x7c         124  App's exec code 
-.text.I2C1_BUS_Interrup 0x9d001fc4           0x6c         108   
-.text.main_entry        0x9d002030           0x54          84   
-.text.TIMER_1_Interrupt 0x9d002084           0x48          72   
-.text                   0x9d0020cc           0x44          68  App's exec code 
-.text.TMR1_Initialize   0x9d002110           0x40          64   
-.text.delay             0x9d002150           0x40          64   
-.text.UART6_Initialize  0x9d002190           0x38          56   
-.text                   0x9d0021c8           0x20          32  App's exec code 
-.text._general_exceptio 0x9d0021e8           0x1c          28   
-.text._bootstrap_except 0x9d002204           0x1c          28   
-.text._cache_err_except 0x9d002220           0x1c          28   
-.text._simple_tlb_refil 0x9d00223c           0x1c          28   
-.MIPS.abiflags          0x9d002258           0x18          24   
-.text                   0x9d002270           0x30          48  App's exec code 
-.text.__exception_handl 0x9d0022a0            0xc          12   
-.text._on_reset         0x9d0022ac            0x8           8   
-.text._on_bootstrap     0x9d0022b4            0x8           8   
-      Total kseg0_program_mem used  :      0x22b8        8888  0.4% of 0x200000
+.text.main              0x9d0007c8          0x460        1120   
+.dinit                  0x9d000c28          0x3f0        1008   
+.text.TIMER_1_Handler   0x9d001018          0x1d0         464   
+.text.I2C1_BUS_Handler  0x9d0011e8          0x1d0         464   
+.text.I2C1_MASTER_Handl 0x9d0013b8          0x1d0         464   
+.text.CHANGE_NOTICE_J_H 0x9d001588          0x1d0         464   
+.text.DMA0_Handler      0x9d001758          0x1d0         464   
+.text.DMA0_InterruptHan 0x9d001928          0x148         328   
+.text._cache_err_except 0x9d001a70           0xd8         216   
+.text.simple_tlb_refill 0x9d001b48           0xd8         216   
+.tlb.__pic32_tlb_init_e 0x9d001c20           0xbc         188   
+.text.CHANGE_NOTICE_J_I 0x9d001cdc           0x84         132   
+.text                   0x9d001d60           0x7c         124  App's exec code 
+.text.TIMER_1_Interrupt 0x9d001ddc           0x48          72   
+.text                   0x9d001e24           0x44          68  App's exec code 
+.text.delay             0x9d001e68           0x40          64   
+.text                   0x9d001ea8           0x20          32  App's exec code 
+.text._bootstrap_except 0x9d001ec8           0x1c          28   
+.text._cache_err_except 0x9d001ee4           0x1c          28   
+.text._simple_tlb_refil 0x9d001f00           0x1c          28   
+.MIPS.abiflags          0x9d001f20           0x18          24   
+.text                   0x9d001f38           0x30          48  App's exec code 
+.text.__exception_handl 0x9d001f68            0xc          12   
+.text._on_reset         0x9d001f74            0x8           8   
+.text._on_bootstrap     0x9d001f7c            0x8           8   
+      Total kseg0_program_mem used  :      0x1f7c        8060  0.4% of 0x200000
 
 kseg0 Boot-Memory Usage
 section                    address  length [bytes]      (dec)  Description
@@ -91,7 +83,7 @@ section                    address  length [bytes]      (dec)  Description
 .bev_excpt              0xbfc00380           0x10          16  BEV-Exception 
          Total kseg1_boot_mem used  :       0x1d4         468  40.6% of 0x480
         --------------------------------------------------------------------------
-         Total Program Memory used  :      0x248c        9356  0.4% of 0x200480
+         Total Program Memory used  :      0x2150        8528  0.4% of 0x200480
         --------------------------------------------------------------------------
 
 
@@ -129,36 +121,33 @@ Microchip PIC32 Memory-Usage Report By Module
         text        data         bss         dec         hex    basename                         filename
 --------------------------------------------------------------------------------
         2360           0           0        2360         938    interrupts.o                 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
-        1584           0          52        1636         664    plib_i2c1_master.o           build/pic32mz_ef_curiosity_v2/debug/_ext/1620630455/plib_i2c1_master.o
-        1052           0           0        1052         41c    main_pic32mz.o               build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
+        1476           0          52        1528         5f8    plib_i2c1_master.o           build/pic32mz_ef_curiosity_v2/debug/_ext/1620630455/plib_i2c1_master.o
+        1184           0           0        1184         4a0    main_pic32mz.o               build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
         1008           0           0        1008         3f0    data_init                    data_init
-           0         824           0         824         338    ccqc3gQt.o                   /tmp/ccqc3gQt.o
-         600           0           0         600         258    ccy6BjSJ.o                   /tmp/ccy6BjSJ.o
-         452           0         148         600         258    plib_dmac.o                  build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
+           0         824           0         824         338    ccbkOSRQ.o                   /tmp/ccbkOSRQ.o
+         600           0           0         600         258    ccpaJOU7.o                   /tmp/ccpaJOU7.o
          448          36           0         484         1e4    pic32_init_cache.o           libpic32.a
-         316           0          12         328         148    plib_gpio.o                  build/pic32mz_ef_curiosity_v2/debug/_ext/89352689/plib_gpio.o
+         328           0         148         476         1dc    plib_dmac.o                  build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
          220           0           0         220          dc    general-exception.o          libpic32.a
          216           0           0         216          d8    simple-tlb-refill-exception.olibpic32.a
          216           0           0         216          d8    cache-err-exception.o        libpic32.a
          188           0           0         188          bc    pic32_init_tlb_ebi_sqi.o     libpic32.a
-         176           0           0         176          b0    plib_clk.o                   build/pic32mz_ef_curiosity_v2/debug/_ext/412755682/plib_clk.o
-         160           0           0         160          a0    initialization.o             build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/initialization.o
          144           0           0         144          90    pic32_data_init_core.o       libpic32.a
-         136           0           8         144          90    plib_tmr1.o                  build/pic32mz_ef_curiosity_v2/debug/_ext/88968072/plib_tmr1.o
+         132           0          12         144          90    plib_gpio.o                  build/pic32mz_ef_curiosity_v2/debug/_ext/89352689/plib_gpio.o
          112           0           0         112          70    exceptions.o                 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
-         112           0           0         112          70    plib_evic.o                  build/pic32mz_ef_curiosity_v2/debug/_ext/89406517/plib_evic.o
+          72           0           8          80          50    plib_tmr1.o                  build/pic32mz_ef_curiosity_v2/debug/_ext/88968072/plib_tmr1.o
           72           0           0          72          48    defaultinterrupt.o           libpic32.a
           68           0           0          68          44    pic32_software_reset.o       /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
-          56           0           0          56          38    plib_uart6.o                 build/pic32mz_ef_curiosity_v2/debug/_ext/88949746/plib_uart6.o
           36           0           0          36          24    software-debug-break.o       /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/software-debug-break.o
           32           0           0          32          20    pic32_data_init_copy.o       libpic32.a
           24           0           0          24          18    pic32_data_init_clear.o      libpic32.a
           24           0           0          24          18    default-nmi-handler.o        libpic32.a
+          24           0           0          24          18    initialization.o             build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/initialization.o
            8           0           0           8           8    default-on-bootstrap.o       libpic32.a
            8           0           0           8           8    default-on-reset.o           libpic32.a
           96           0        1792        1888         760    misc                         misc
 --------------------------------------------------------------------------------
-        9924         860        2012       12796        31fc    dist/pic32mz_ef_curiosity_v2/debug/pic32mz_ef_curiosity_v2.X.debug.elf
+        9096         860        2012       11968        2ec0    dist/pic32mz_ef_curiosity_v2/debug/pic32mz_ef_curiosity_v2.X.debug.elf
 
 
 Discarded input sections
@@ -236,6 +225,8 @@ Discarded input sections
  .reginfo       0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/412755682/plib_clk.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/412755682/plib_clk.o
+ .text.CLK_Initialize
+                0x0000000000000000       0xb0 build/pic32mz_ef_curiosity_v2/debug/_ext/412755682/plib_clk.o
  .text          0x0000000000000000        0x0 build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
  .data          0x0000000000000000        0x0 build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
  .reginfo       0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
@@ -243,6 +234,8 @@ Discarded input sections
                 0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
  .text.DMAC_ChannelSetAddresses
                 0x0000000000000000      0x100 build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
+ .text.DMAC_Initialize
+                0x0000000000000000       0x7c build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
  .text.DMAC_ChannelCallbackRegister
                 0x0000000000000000       0x20 build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
  .text.DMAC_ChannelTransfer
@@ -271,6 +264,8 @@ Discarded input sections
  .reginfo       0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/89406517/plib_evic.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/89406517/plib_evic.o
+ .text.EVIC_Initialize
+                0x0000000000000000       0x70 build/pic32mz_ef_curiosity_v2/debug/_ext/89406517/plib_evic.o
  .text.EVIC_SourceEnable
                 0x0000000000000000       0x28 build/pic32mz_ef_curiosity_v2/debug/_ext/89406517/plib_evic.o
  .text.EVIC_SourceDisable
@@ -294,6 +289,8 @@ Discarded input sections
  .reginfo       0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/89352689/plib_gpio.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/89352689/plib_gpio.o
+ .text.GPIO_Initialize
+                0x0000000000000000       0xb8 build/pic32mz_ef_curiosity_v2/debug/_ext/89352689/plib_gpio.o
  .text.GPIO_PortRead
                 0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/89352689/plib_gpio.o
  .text.GPIO_PortWrite
@@ -326,6 +323,8 @@ Discarded input sections
  .reginfo       0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/1620630455/plib_i2c1_master.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/1620630455/plib_i2c1_master.o
+ .text.I2C1_Initialize
+                0x0000000000000000       0x6c build/pic32mz_ef_curiosity_v2/debug/_ext/1620630455/plib_i2c1_master.o
  .text.I2C1_CallbackRegister
                 0x0000000000000000       0x1c build/pic32mz_ef_curiosity_v2/debug/_ext/1620630455/plib_i2c1_master.o
  .text.I2C1_IsBusy
@@ -349,6 +348,8 @@ Discarded input sections
  .reginfo       0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/88968072/plib_tmr1.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/88968072/plib_tmr1.o
+ .text.TMR1_Initialize
+                0x0000000000000000       0x40 build/pic32mz_ef_curiosity_v2/debug/_ext/88968072/plib_tmr1.o
  .text.TMR1_Start
                 0x0000000000000000       0x14 build/pic32mz_ef_curiosity_v2/debug/_ext/88968072/plib_tmr1.o
  .text.TMR1_Stop
@@ -375,6 +376,8 @@ Discarded input sections
                 0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/88949746/plib_uart6.o
  .text.UART6_ErrorClear
                 0x0000000000000000       0x60 build/pic32mz_ef_curiosity_v2/debug/_ext/88949746/plib_uart6.o
+ .text.UART6_Initialize
+                0x0000000000000000       0x38 build/pic32mz_ef_curiosity_v2/debug/_ext/88949746/plib_uart6.o
  .text.UART6_SerialSetup
                 0x0000000000000000      0x104 build/pic32mz_ef_curiosity_v2/debug/_ext/88949746/plib_uart6.o
  .text.UART6_AutoBaudQuery
@@ -411,6 +414,8 @@ Discarded input sections
  .reginfo       0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/initialization.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/initialization.o
+ .text.SYS_Initialize
+                0x0000000000000000       0x88 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/initialization.o
  .text          0x0000000000000000        0x0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
  .data          0x0000000000000000        0x0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
  .bss           0x0000000000000000        0x0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
@@ -429,31 +434,31 @@ Discarded input sections
  .reginfo       0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
- .text          0x0000000000000000        0x0 /tmp/ccy6BjSJ.o
- .data          0x0000000000000000        0x0 /tmp/ccy6BjSJ.o
- .bss           0x0000000000000000        0x0 /tmp/ccy6BjSJ.o
- .reginfo       0x0000000000000000       0x18 /tmp/ccy6BjSJ.o
+ .text          0x0000000000000000        0x0 /tmp/ccpaJOU7.o
+ .data          0x0000000000000000        0x0 /tmp/ccpaJOU7.o
+ .bss           0x0000000000000000        0x0 /tmp/ccpaJOU7.o
+ .reginfo       0x0000000000000000       0x18 /tmp/ccpaJOU7.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 /tmp/ccy6BjSJ.o
- .text          0x0000000000000000        0x0 /tmp/ccHnYQCH.o
- .data          0x0000000000000000        0x0 /tmp/ccHnYQCH.o
- .bss           0x0000000000000000        0x0 /tmp/ccHnYQCH.o
- .reginfo       0x0000000000000000       0x18 /tmp/ccHnYQCH.o
+                0x0000000000000000       0x18 /tmp/ccpaJOU7.o
+ .text          0x0000000000000000        0x0 /tmp/ccbshfkS.o
+ .data          0x0000000000000000        0x0 /tmp/ccbshfkS.o
+ .bss           0x0000000000000000        0x0 /tmp/ccbshfkS.o
+ .reginfo       0x0000000000000000       0x18 /tmp/ccbshfkS.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 /tmp/ccHnYQCH.o
- .text          0x0000000000000000        0x0 /tmp/ccqc3gQt.o
- .data          0x0000000000000000        0x0 /tmp/ccqc3gQt.o
- .bss           0x0000000000000000        0x0 /tmp/ccqc3gQt.o
- .reginfo       0x0000000000000000       0x18 /tmp/ccqc3gQt.o
+                0x0000000000000000       0x18 /tmp/ccbshfkS.o
+ .text          0x0000000000000000        0x0 /tmp/ccbkOSRQ.o
+ .data          0x0000000000000000        0x0 /tmp/ccbkOSRQ.o
+ .bss           0x0000000000000000        0x0 /tmp/ccbkOSRQ.o
+ .reginfo       0x0000000000000000       0x18 /tmp/ccbkOSRQ.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 /tmp/ccqc3gQt.o
- .text          0x0000000000000000        0x0 /tmp/cczICM3U.o
- .data          0x0000000000000000        0x0 /tmp/cczICM3U.o
- .bss           0x0000000000000000        0x0 /tmp/cczICM3U.o
- .reginfo       0x0000000000000000       0x18 /tmp/cczICM3U.o
+                0x0000000000000000       0x18 /tmp/ccbkOSRQ.o
+ .text          0x0000000000000000        0x0 /tmp/ccj6iGVy.o
+ .data          0x0000000000000000        0x0 /tmp/ccj6iGVy.o
+ .bss           0x0000000000000000        0x0 /tmp/ccj6iGVy.o
+ .reginfo       0x0000000000000000       0x18 /tmp/ccj6iGVy.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 /tmp/cczICM3U.o
- .discard       0x0000000000000000        0x4 /tmp/cczICM3U.o
+                0x0000000000000000       0x18 /tmp/ccj6iGVy.o
+ .discard       0x0000000000000000        0x4 /tmp/ccj6iGVy.o
  .data          0x0000000000000000        0x0 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
  .bss           0x0000000000000000        0x0 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
  .reginfo       0x0000000000000000       0x18 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
@@ -1229,16 +1234,16 @@ END GROUP
 
 .reset          0x00000000bfc00000      0x1c4
  *(.reset)
- .reset         0x00000000bfc00000       0x18 /tmp/ccy6BjSJ.o
+ .reset         0x00000000bfc00000       0x18 /tmp/ccpaJOU7.o
                 0x00000000bfc00000                _reset
  *(.reset.startup)
  .reset.startup
-                0x00000000bfc00018      0x1ac /tmp/ccy6BjSJ.o
+                0x00000000bfc00018      0x1ac /tmp/ccpaJOU7.o
                 0x00000000bfc00018                _startup
 
 .bev_excpt      0x00000000bfc00380       0x10
  *(.bev_handler)
- .bev_handler   0x00000000bfc00380       0x10 /tmp/ccy6BjSJ.o
+ .bev_handler   0x00000000bfc00380       0x10 /tmp/ccpaJOU7.o
 
 .cache_init     0x00000000bfc004b0      0x1c0
  *(.cache_init)
@@ -1253,17 +1258,17 @@ END GROUP
                 0x000000009d000000       0x10
  *(.simple_tlb_refill_vector)
  .simple_tlb_refill_vector
-                0x000000009d000000       0x10 /tmp/ccy6BjSJ.o
+                0x000000009d000000       0x10 /tmp/ccpaJOU7.o
 
 .cache_err_excpt
                 0x000000009d000100       0x10
  *(.cache_err_vector)
  .cache_err_vector
-                0x000000009d000100       0x10 /tmp/ccy6BjSJ.o
+                0x000000009d000100       0x10 /tmp/ccpaJOU7.o
 
 .app_excpt      0x000000009d000180       0x10
  *(.gen_handler)
- .gen_handler   0x000000009d000180       0x10 /tmp/ccy6BjSJ.o
+ .gen_handler   0x000000009d000180       0x10 /tmp/ccpaJOU7.o
 
 .vectors        0x000000009d000200       0x70
                 0x000000009d000200                . = ALIGN (0x4)
@@ -2359,7 +2364,7 @@ END GROUP
  .debug_aranges
                 0x00000000000004a0       0x28 build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
  .debug_aranges
-                0x00000000000004c8       0x50 /tmp/ccy6BjSJ.o
+                0x00000000000004c8       0x50 /tmp/ccpaJOU7.o
  .debug_aranges
                 0x0000000000000518       0x20 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
  .debug_aranges
@@ -2371,7 +2376,7 @@ END GROUP
  *.elf(.debug_pubnames)
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x3f7d
+.debug_info     0x0000000000000000     0x3ffa
  *.elf(.debug_info .gnu.linkonce.wi.*)
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000       0x3f /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/software-debug-break.o
@@ -2387,13 +2392,13 @@ END GROUP
  .debug_info    0x00000000000035ee      0x31f build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/initialization.o
  .debug_info    0x000000000000390d      0x18b build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
  .debug_info    0x0000000000003a98      0x111 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
- .debug_info    0x0000000000003ba9      0x2f4 build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
- .debug_info    0x0000000000003e9d       0x22 /tmp/ccy6BjSJ.o
- .debug_info    0x0000000000003ebf       0x3f /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
- .debug_info    0x0000000000003efe       0x3f /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
- .debug_info    0x0000000000003f3d       0x40 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
+ .debug_info    0x0000000000003ba9      0x371 build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
+ .debug_info    0x0000000000003f1a       0x22 /tmp/ccpaJOU7.o
+ .debug_info    0x0000000000003f3c       0x3f /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
+ .debug_info    0x0000000000003f7b       0x3f /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
+ .debug_info    0x0000000000003fba       0x40 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
 
-.debug_abbrev   0x0000000000000000     0x13ab
+.debug_abbrev   0x0000000000000000     0x139c
  *.elf(.debug_abbrev)
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000       0x2e /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/software-debug-break.o
@@ -2409,13 +2414,13 @@ END GROUP
  .debug_abbrev  0x0000000000000fe9      0x149 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/initialization.o
  .debug_abbrev  0x0000000000001132       0x67 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
  .debug_abbrev  0x0000000000001199       0x67 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
- .debug_abbrev  0x0000000000001200      0x10c build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
- .debug_abbrev  0x000000000000130c       0x12 /tmp/ccy6BjSJ.o
- .debug_abbrev  0x000000000000131e       0x2e /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
- .debug_abbrev  0x000000000000134c       0x2e /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
- .debug_abbrev  0x000000000000137a       0x31 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
+ .debug_abbrev  0x0000000000001200       0xfd build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
+ .debug_abbrev  0x00000000000012fd       0x12 /tmp/ccpaJOU7.o
+ .debug_abbrev  0x000000000000130f       0x2e /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
+ .debug_abbrev  0x000000000000133d       0x2e /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
+ .debug_abbrev  0x000000000000136b       0x31 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
 
-.debug_line     0x0000000000000000     0x347b
+.debug_line     0x0000000000000000     0x3429
  *.elf(.debug_line)
  *(.debug_line)
  .debug_line    0x0000000000000000       0xb0 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/software-debug-break.o
@@ -2431,11 +2436,11 @@ END GROUP
  .debug_line    0x0000000000002718      0x4b4 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/initialization.o
  .debug_line    0x0000000000002bcc      0x123 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
  .debug_line    0x0000000000002cef      0x164 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
- .debug_line    0x0000000000002e53      0x2a1 build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
- .debug_line    0x00000000000030f4      0x171 /tmp/ccy6BjSJ.o
- .debug_line    0x0000000000003265       0xa5 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
- .debug_line    0x000000000000330a       0xa9 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
- .debug_line    0x00000000000033b3       0xc8 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
+ .debug_line    0x0000000000002e53      0x24f build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
+ .debug_line    0x00000000000030a2      0x171 /tmp/ccpaJOU7.o
+ .debug_line    0x0000000000003213       0xa5 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
+ .debug_line    0x00000000000032b8       0xa9 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
+ .debug_line    0x0000000000003361       0xc8 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
 
 .debug_frame    0x0000000000000000      0xcb4
  *.elf(.debug_frame)
@@ -2458,7 +2463,7 @@ END GROUP
  .debug_frame   0x0000000000000c74       0x20 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
  .debug_frame   0x0000000000000c94       0x20 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
 
-.debug_str      0x0000000000000000     0x52e3
+.debug_str      0x0000000000000000     0x52da
  *.elf(.debug_str)
  *(.debug_str)
  .debug_str     0x0000000000000000      0x354 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/software-debug-break.o
@@ -2474,11 +2479,11 @@ END GROUP
  .debug_str     0x0000000000003899      0x47d build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/initialization.o
  .debug_str     0x0000000000003d16      0x410 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
  .debug_str     0x0000000000004126      0x3d3 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
- .debug_str     0x00000000000044f9      0x35d build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
- .debug_str     0x0000000000004856       0xb1 /tmp/ccy6BjSJ.o
- .debug_str     0x0000000000004907      0x33e /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
- .debug_str     0x0000000000004c45      0x346 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
- .debug_str     0x0000000000004f8b      0x358 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
+ .debug_str     0x00000000000044f9      0x354 build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
+ .debug_str     0x000000000000484d       0xb1 /tmp/ccpaJOU7.o
+ .debug_str     0x00000000000048fe      0x33e /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
+ .debug_str     0x0000000000004c3c      0x346 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
+ .debug_str     0x0000000000004f82      0x358 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
 
 .debug_loc      0x0000000000000000     0x247e
  *.elf(.debug_loc)
@@ -2536,7 +2541,7 @@ END GROUP
  .debug_ranges  0x0000000000000398       0x30 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
  .debug_ranges  0x00000000000003c8       0x28 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
  .debug_ranges  0x00000000000003f0       0x58 build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
- .debug_ranges  0x0000000000000448       0x48 /tmp/ccy6BjSJ.o
+ .debug_ranges  0x0000000000000448       0x48 /tmp/ccpaJOU7.o
  .debug_ranges  0x0000000000000490       0x10 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
  .debug_ranges  0x00000000000004a0       0x10 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
  .debug_ranges  0x00000000000004b0       0x10 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
@@ -2575,13 +2580,13 @@ END GROUP
  .gnu.attributes
                 0x00000000000000e0       0x10 build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
  .gnu.attributes
-                0x00000000000000f0       0x10 /tmp/ccy6BjSJ.o
+                0x00000000000000f0       0x10 /tmp/ccpaJOU7.o
  .gnu.attributes
-                0x0000000000000100       0x10 /tmp/ccHnYQCH.o
+                0x0000000000000100       0x10 /tmp/ccbshfkS.o
  .gnu.attributes
-                0x0000000000000110       0x10 /tmp/ccqc3gQt.o
+                0x0000000000000110       0x10 /tmp/ccbkOSRQ.o
  .gnu.attributes
-                0x0000000000000120       0x10 /tmp/cczICM3U.o
+                0x0000000000000120       0x10 /tmp/ccj6iGVy.o
  .gnu.attributes
                 0x0000000000000130       0x10 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
  .gnu.attributes
@@ -2680,10 +2685,10 @@ END GROUP
                 0x0000000000000001                __MPLAB_DEBUG = 0x1
                 0x0000000000000001                __DEBUG = 0x1
                 0x0000000000000200                _min_heap_size = 0x200
-LOAD /tmp/ccy6BjSJ.o
-LOAD /tmp/ccHnYQCH.o
-LOAD /tmp/ccqc3gQt.o
-LOAD /tmp/cczICM3U.o
+LOAD /tmp/ccpaJOU7.o
+LOAD /tmp/ccbshfkS.o
+LOAD /tmp/ccbkOSRQ.o
+LOAD /tmp/ccj6iGVy.o
 LOAD /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
 LOAD /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/fpu64/libgcc.a
 START GROUP
@@ -2711,37 +2716,37 @@ LOAD stack
 .__vector_offset_BF810540_data
                 0x00000000bf810540      0x1b0
  .__vector_offset_BF810540_data
-                0x00000000bf810540      0x1b0 /tmp/ccqc3gQt.o
+                0x00000000bf810540      0x1b0 /tmp/ccbkOSRQ.o
 
 .__vector_offset_BF8106F4_data
                 0x00000000bf8106f4      0x148
  .__vector_offset_BF8106F4_data
-                0x00000000bf8106f4      0x148 /tmp/ccqc3gQt.o
+                0x00000000bf8106f4      0x148 /tmp/ccbkOSRQ.o
 
 .__vector_offset_BF810874_data
                 0x00000000bf810874       0x18
  .__vector_offset_BF810874_data
-                0x00000000bf810874       0x18 /tmp/ccqc3gQt.o
+                0x00000000bf810874       0x18 /tmp/ccbkOSRQ.o
 
 .__vector_offset_BF810858_data
                 0x00000000bf810858       0x14
  .__vector_offset_BF810858_data
-                0x00000000bf810858       0x14 /tmp/ccqc3gQt.o
+                0x00000000bf810858       0x14 /tmp/ccbkOSRQ.o
 
 .__vector_offset_BF810840_data
                 0x00000000bf810840        0xc
  .__vector_offset_BF810840_data
-                0x00000000bf810840        0xc /tmp/ccqc3gQt.o
+                0x00000000bf810840        0xc /tmp/ccbkOSRQ.o
 
 .__vector_offset_BF810850_data
                 0x00000000bf810850        0x4
  .__vector_offset_BF810850_data
-                0x00000000bf810850        0x4 /tmp/ccqc3gQt.o
+                0x00000000bf810850        0x4 /tmp/ccbkOSRQ.o
 
 .__vector_offset_BF810894_data
                 0x00000000bf810894        0x4
  .__vector_offset_BF810894_data
-                0x00000000bf810894        0x4 /tmp/ccqc3gQt.o
+                0x00000000bf810894        0x4 /tmp/ccbkOSRQ.o
 
 .bss            0x00000000800003ac       0xc8
  .bss           0x00000000800003ac       0x94 build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
@@ -2756,48 +2761,48 @@ LOAD stack
                 0x000000009d000270      0x558 build/pic32mz_ef_curiosity_v2/debug/_ext/1620630455/plib_i2c1_master.o
                 0x000000009d000270                I2C1_MASTER_InterruptHandler
 
-.dinit          0x000000009d0007c8      0x3f0
- .dinit         0x000000009d0007c8      0x3f0 data_init
+.text.main      0x000000009d0007c8      0x460
+ .text.main     0x000000009d0007c8      0x460 build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
+                0x000000009d0007c8                main
 
-.text.main      0x000000009d000bb8      0x3dc
- .text.main     0x000000009d000bb8      0x3dc build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
-                0x000000009d000bb8                main
+.dinit          0x000000009d000c28      0x3f0
+ .dinit         0x000000009d000c28      0x3f0 data_init
 
 .text.TIMER_1_Handler
-                0x000000009d000f94      0x1d0
+                0x000000009d001018      0x1d0
  .text.TIMER_1_Handler
-                0x000000009d000f94      0x1d0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
-                0x000000009d000f94                TIMER_1_Handler
+                0x000000009d001018      0x1d0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
+                0x000000009d001018                TIMER_1_Handler
 
 .text.I2C1_BUS_Handler
-                0x000000009d001164      0x1d0
+                0x000000009d0011e8      0x1d0
  .text.I2C1_BUS_Handler
-                0x000000009d001164      0x1d0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
-                0x000000009d001164                I2C1_BUS_Handler
+                0x000000009d0011e8      0x1d0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
+                0x000000009d0011e8                I2C1_BUS_Handler
 
 .text.I2C1_MASTER_Handler
-                0x000000009d001334      0x1d0
+                0x000000009d0013b8      0x1d0
  .text.I2C1_MASTER_Handler
-                0x000000009d001334      0x1d0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
-                0x000000009d001334                I2C1_MASTER_Handler
+                0x000000009d0013b8      0x1d0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
+                0x000000009d0013b8                I2C1_MASTER_Handler
 
 .text.CHANGE_NOTICE_J_Handler
-                0x000000009d001504      0x1d0
+                0x000000009d001588      0x1d0
  .text.CHANGE_NOTICE_J_Handler
-                0x000000009d001504      0x1d0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
-                0x000000009d001504                CHANGE_NOTICE_J_Handler
+                0x000000009d001588      0x1d0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
+                0x000000009d001588                CHANGE_NOTICE_J_Handler
 
 .text.DMA0_Handler
-                0x000000009d0016d4      0x1d0
+                0x000000009d001758      0x1d0
  .text.DMA0_Handler
-                0x000000009d0016d4      0x1d0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
-                0x000000009d0016d4                DMA0_Handler
+                0x000000009d001758      0x1d0 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/interrupts.o
+                0x000000009d001758                DMA0_Handler
 
 .text.DMA0_InterruptHandler
-                0x000000009d0018a4      0x148
+                0x000000009d001928      0x148
  .text.DMA0_InterruptHandler
-                0x000000009d0018a4      0x148 build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
-                0x000000009d0018a4                DMA0_InterruptHandler
+                0x000000009d001928      0x148 build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
+                0x000000009d001928                DMA0_InterruptHandler
 
 .text.general_exception
                 0x000000009d000010       0xdc
@@ -2806,167 +2811,119 @@ LOAD stack
                 0x000000009d000010                _general_exception_context
 
 .text._cache_err_exception_context
-                0x000000009d0019ec       0xd8
+                0x000000009d001a70       0xd8
  .text._cache_err_exception_context
-                0x000000009d0019ec       0xd8 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(cache-err-exception.o)
-                0x000000009d0019ec                _cache_err_exception_context
+                0x000000009d001a70       0xd8 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(cache-err-exception.o)
+                0x000000009d001a70                _cache_err_exception_context
 
 .text.simple_tlb_refill_context
-                0x000000009d001ac4       0xd8
+                0x000000009d001b48       0xd8
  .text.simple_tlb_refill_context
-                0x000000009d001ac4       0xd8 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(simple-tlb-refill-exception.o)
-                0x000000009d001ac4                _simple_tlb_refill_exception_context
+                0x000000009d001b48       0xd8 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(simple-tlb-refill-exception.o)
+                0x000000009d001b48                _simple_tlb_refill_exception_context
 
 .tlb.__pic32_tlb_init_ebi_sqi
-                0x000000009d001b9c       0xbc
+                0x000000009d001c20       0xbc
  .tlb.__pic32_tlb_init_ebi_sqi
-                0x000000009d001b9c       0xbc /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_init_tlb_ebi_sqi.o)
-                0x000000009d001b9c                __pic32_tlb_init_ebi_sqi
-
-.text.GPIO_Initialize
-                0x000000009d001c58       0xb8
- .text.GPIO_Initialize
-                0x000000009d001c58       0xb8 build/pic32mz_ef_curiosity_v2/debug/_ext/89352689/plib_gpio.o
-                0x000000009d001c58                GPIO_Initialize
-
-.text.CLK_Initialize
-                0x000000009d001d10       0xb0
- .text.CLK_Initialize
-                0x000000009d001d10       0xb0 build/pic32mz_ef_curiosity_v2/debug/_ext/412755682/plib_clk.o
-                0x000000009d001d10                CLK_Initialize
-
-.text.SYS_Initialize
-                0x000000009d001dc0       0x88
- .text.SYS_Initialize
-                0x000000009d001dc0       0x88 build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/initialization.o
-                0x000000009d001dc0                SYS_Initialize
+                0x000000009d001c20       0xbc /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_init_tlb_ebi_sqi.o)
+                0x000000009d001c20                __pic32_tlb_init_ebi_sqi
 
 .text.CHANGE_NOTICE_J_InterruptHandler
-                0x000000009d001e48       0x84
+                0x000000009d001cdc       0x84
  .text.CHANGE_NOTICE_J_InterruptHandler
-                0x000000009d001e48       0x84 build/pic32mz_ef_curiosity_v2/debug/_ext/89352689/plib_gpio.o
-                0x000000009d001e48                CHANGE_NOTICE_J_InterruptHandler
+                0x000000009d001cdc       0x84 build/pic32mz_ef_curiosity_v2/debug/_ext/89352689/plib_gpio.o
+                0x000000009d001cdc                CHANGE_NOTICE_J_InterruptHandler
 
-.text.DMAC_Initialize
-                0x000000009d001ecc       0x7c
- .text.DMAC_Initialize
-                0x000000009d001ecc       0x7c build/pic32mz_ef_curiosity_v2/debug/_ext/89445205/plib_dmac.o
-                0x000000009d001ecc                DMAC_Initialize
-
-.text           0x000000009d001f48       0x7c
- .text          0x000000009d001f48       0x7c /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_data_init_core.o)
-                0x000000009d001f48                __dinit_copy_emb
-                0x000000009d001f48                __dinit_copy_val_data
-                0x000000009d001f48                __dinit_decompress
-                0x000000009d001f50                __pic32_data_init
-
-.text.EVIC_Initialize
-                0x000000009d000110       0x70
- .text.EVIC_Initialize
-                0x000000009d000110       0x70 build/pic32mz_ef_curiosity_v2/debug/_ext/89406517/plib_evic.o
-                0x000000009d000110                EVIC_Initialize
-
-.text.I2C1_Initialize
-                0x000000009d000190       0x6c
- .text.I2C1_Initialize
-                0x000000009d000190       0x6c build/pic32mz_ef_curiosity_v2/debug/_ext/1620630455/plib_i2c1_master.o
-                0x000000009d000190                I2C1_Initialize
+.text           0x000000009d001d60       0x7c
+ .text          0x000000009d001d60       0x7c /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_data_init_core.o)
+                0x000000009d001d60                __dinit_copy_emb
+                0x000000009d001d60                __dinit_copy_val_data
+                0x000000009d001d60                __dinit_decompress
+                0x000000009d001d68                __pic32_data_init
 
 .text.I2C1_BUS_InterruptHandler
-                0x000000009d001fc4       0x6c
+                0x000000009d000110       0x6c
  .text.I2C1_BUS_InterruptHandler
-                0x000000009d001fc4       0x6c build/pic32mz_ef_curiosity_v2/debug/_ext/1620630455/plib_i2c1_master.o
-                0x000000009d001fc4                I2C1_BUS_InterruptHandler
+                0x000000009d000110       0x6c build/pic32mz_ef_curiosity_v2/debug/_ext/1620630455/plib_i2c1_master.o
+                0x000000009d000110                I2C1_BUS_InterruptHandler
 
 .text.main_entry
-                0x000000009d002030       0x54
+                0x000000009d000190       0x54
  .text.main_entry
-                0x000000009d002030       0x54 /tmp/ccy6BjSJ.o
-                0x000000009d002064                __crt0_exit
+                0x000000009d000190       0x54 /tmp/ccpaJOU7.o
+                0x000000009d0001c4                __crt0_exit
 
 .text.TIMER_1_InterruptHandler
-                0x000000009d002084       0x48
+                0x000000009d001ddc       0x48
  .text.TIMER_1_InterruptHandler
-                0x000000009d002084       0x48 build/pic32mz_ef_curiosity_v2/debug/_ext/88968072/plib_tmr1.o
-                0x000000009d002084                TIMER_1_InterruptHandler
+                0x000000009d001ddc       0x48 build/pic32mz_ef_curiosity_v2/debug/_ext/88968072/plib_tmr1.o
+                0x000000009d001ddc                TIMER_1_InterruptHandler
 
-.text           0x000000009d0020cc       0x44
- .text          0x000000009d0020cc       0x44 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
-                0x000000009d0020cc                __pic32_software_reset
+.text           0x000000009d001e24       0x44
+ .text          0x000000009d001e24       0x44 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
+                0x000000009d001e24                __pic32_software_reset
 
-.text.TMR1_Initialize
-                0x000000009d002110       0x40
- .text.TMR1_Initialize
-                0x000000009d002110       0x40 build/pic32mz_ef_curiosity_v2/debug/_ext/88968072/plib_tmr1.o
-                0x000000009d002110                TMR1_Initialize
+.text.delay     0x000000009d001e68       0x40
+ .text.delay    0x000000009d001e68       0x40 build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
+                0x000000009d001e68                delay
 
-.text.delay     0x000000009d002150       0x40
- .text.delay    0x000000009d002150       0x40 build/pic32mz_ef_curiosity_v2/debug/_ext/1360937237/main_pic32mz.o
-                0x000000009d002150                delay
-
-.text.UART6_Initialize
-                0x000000009d002190       0x38
- .text.UART6_Initialize
-                0x000000009d002190       0x38 build/pic32mz_ef_curiosity_v2/debug/_ext/88949746/plib_uart6.o
-                0x000000009d002190                UART6_Initialize
-
-.text           0x000000009d0021c8       0x20
- .text          0x000000009d0021c8       0x20 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_data_init_copy.o)
-                0x000000009d0021c8                __dinit_copy_needed
-                0x000000009d0021c8                __dinit_copy
+.text           0x000000009d001ea8       0x20
+ .text          0x000000009d001ea8       0x20 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_data_init_copy.o)
+                0x000000009d001ea8                __dinit_copy_needed
+                0x000000009d001ea8                __dinit_copy
 
 .text._general_exception_handler
-                0x000000009d0021e8       0x1c
+                0x000000009d0001e4       0x1c
  .text._general_exception_handler
-                0x000000009d0021e8       0x1c build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
-                0x000000009d0021e8                _general_exception_handler
+                0x000000009d0001e4       0x1c build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
+                0x000000009d0001e4                _general_exception_handler
 
 .text._bootstrap_exception_handler
-                0x000000009d002204       0x1c
+                0x000000009d001ec8       0x1c
  .text._bootstrap_exception_handler
-                0x000000009d002204       0x1c build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
-                0x000000009d002204                _bootstrap_exception_handler
+                0x000000009d001ec8       0x1c build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
+                0x000000009d001ec8                _bootstrap_exception_handler
 
 .text._cache_err_exception_handler
-                0x000000009d002220       0x1c
+                0x000000009d001ee4       0x1c
  .text._cache_err_exception_handler
-                0x000000009d002220       0x1c build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
-                0x000000009d002220                _cache_err_exception_handler
+                0x000000009d001ee4       0x1c build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
+                0x000000009d001ee4                _cache_err_exception_handler
 
 .text._simple_tlb_refill_exception_handler
-                0x000000009d00223c       0x1c
+                0x000000009d001f00       0x1c
  .text._simple_tlb_refill_exception_handler
-                0x000000009d00223c       0x1c build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
-                0x000000009d00223c                _simple_tlb_refill_exception_handler
+                0x000000009d001f00       0x1c build/pic32mz_ef_curiosity_v2/debug/_ext/969001572/exceptions.o
+                0x000000009d001f00                _simple_tlb_refill_exception_handler
 
-.MIPS.abiflags  0x000000009d002258       0x18
+.MIPS.abiflags  0x000000009d001f20       0x18
  .MIPS.abiflags
-                0x000000009d002258       0x18 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/software-debug-break.o
+                0x000000009d001f20       0x18 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/software-debug-break.o
 
-.text           0x000000009d002270       0x30
- .text          0x000000009d002270       0x18 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-nmi-handler.o)
-                0x000000009d002270                _nmi_handler
- .text          0x000000009d002288       0x18 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_data_init_clear.o)
-                0x000000009d002288                __dinit_clear
-                0x000000009d002288                __dinit_clear_needed
+.text           0x000000009d001f38       0x30
+ .text          0x000000009d001f38       0x18 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-nmi-handler.o)
+                0x000000009d001f38                _nmi_handler
+ .text          0x000000009d001f50       0x18 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_data_init_clear.o)
+                0x000000009d001f50                __dinit_clear
+                0x000000009d001f50                __dinit_clear_needed
 
 .rodata         0x000000009d0000ec       0x14
  .rodata        0x000000009d0000ec       0x14 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_data_init_core.o)
 
 .text.__exception_handler_break
-                0x000000009d0022a0        0xc
+                0x000000009d001f68        0xc
  .text.__exception_handler_break
-                0x000000009d0022a0        0xc /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/software-debug-break.o
-                0x000000009d0022a0                __exception_handler_break
+                0x000000009d001f68        0xc /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/software-debug-break.o
+                0x000000009d001f68                __exception_handler_break
 
 .text._on_reset
-                0x000000009d0022ac        0x8
+                0x000000009d001f74        0x8
  .text._on_reset
-                0x000000009d0022ac        0x8 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
-                0x000000009d0022ac                _on_reset
+                0x000000009d001f74        0x8 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
+                0x000000009d001f74                _on_reset
 
 .text._on_bootstrap
-                0x000000009d0022b4        0x8
+                0x000000009d001f7c        0x8
  .text._on_bootstrap
-                0x000000009d0022b4        0x8 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
-                0x000000009d0022b4                _on_bootstrap
+                0x000000009d001f7c        0x8 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
+                0x000000009d001f7c                _on_bootstrap

@@ -53,18 +53,7 @@
 #include <stdlib.h>                     // Defines EXIT_FAILURE
 #include <string.h>
 #include "definitions.h"                // SYS function prototypes
-#include "device_cache.h"
-
-#define TEMP_SENSOR_SLAVE_ADDR                  0x004F
-#define TEMP_SENSOR_REG_ADDR                    0x00
-
-#define SWITCH_PRESSED_STATE                    0   // Active LOW switch
-
-/* Timer Counter Time period match values for input clock of 4096 Hz */
-#define PERIOD_500MS                            500000
-#define PERIOD_1S                               4096
-#define PERIOD_2S                               8192
-#define PERIOD_4S                               16384
+//#include "device_cache.h"
 
 // *****************************************************************************
 // *****************************************************************************
@@ -121,11 +110,13 @@ void delay(unsigned int us)
 int main ( void )
 {
     /* Initialize all modules */
-    SYS_Initialize ( NULL );
+    //SYS_Initialize ( NULL );
     
     while (1) {
         _CP0_SET_COUNT(0);
     
+        RPB7R = 0x2U;
+        
         while (!SW1_Get() && !SW2_Get() && !SW3_Get())
             ;
     
@@ -226,7 +217,6 @@ int main ( void )
                 LED3_OFF();
                 break;
         }
-        
     } // main while
 
     return ( EXIT_FAILURE );

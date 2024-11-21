@@ -13,8 +13,7 @@ build/pic32mz_ef_curiosity_v2/production/_ext/1360937237/main_pic32mz.o: \
  ../src/config/pic32mz_ef_curiosity_v2/peripheral/tmr1/plib_tmr1.h \
  ../src/config/pic32mz_ef_curiosity_v2/peripheral/tmr1/plib_tmr1_common.h \
  ../src/config/pic32mz_ef_curiosity_v2/peripheral/uart/plib_uart6.h \
- ../src/config/pic32mz_ef_curiosity_v2/peripheral/uart/plib_uart_common.h \
- ../src/config/pic32mz_ef_curiosity_v2/device_cache.h
+ ../src/config/pic32mz_ef_curiosity_v2/peripheral/uart/plib_uart_common.h
 
 ../src/config/pic32mz_ef_curiosity_v2/definitions.h:
 
@@ -43,5 +42,3 @@ build/pic32mz_ef_curiosity_v2/production/_ext/1360937237/main_pic32mz.o: \
 ../src/config/pic32mz_ef_curiosity_v2/peripheral/uart/plib_uart6.h:
 
 ../src/config/pic32mz_ef_curiosity_v2/peripheral/uart/plib_uart_common.h:
-
-../src/config/pic32mz_ef_curiosity_v2/device_cache.h:

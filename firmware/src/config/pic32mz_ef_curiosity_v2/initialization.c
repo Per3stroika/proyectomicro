@@ -173,7 +173,7 @@ void SYS_Initialize ( void* data )
     (void)__builtin_disable_interrupts();
 
   
-    CLK_Initialize();
+    //CLK_Initialize();
     /* Configure Prefetch, Wait States and ECC */
     PRECONbits.PREFEN = 3;
     PRECONbits.PFMWS = 3;
@@ -181,15 +181,15 @@ void SYS_Initialize ( void* data )
 
 
 
-	GPIO_Initialize();
+	//GPIO_Initialize();
 
-    I2C1_Initialize();
+    //I2C1_Initialize();
 
-    DMAC_Initialize();
+    //DMAC_Initialize();
 
-    TMR1_Initialize();
+    //TMR1_Initialize();
 
-	UART6_Initialize();
+	//UART6_Initialize();
 
 
 
